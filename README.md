@@ -58,3 +58,16 @@ Open the ```customer_banking.py``` file, and do the following:
     - Call the '```create_CD_account``` function and pass in the variables from the user.
     - Print out the interest earned and updated CD account balance with interest earned for the given months.
     - Call the ```main``` function.
+
+# EXTRAS 
+1. Created a function ```get_user_input(prompt, data_type)``` to validate the user input as per the expected data type 
+2. Added getter functions to access the class attributes from the accounts class 
+
+# Info
+In Python, there are no explicit keywords like ```private``` or ```public```.
+However, Python provides a convention to indicate the visibility of attributes and methods:
+- Public: By default, all attributes and methods are public in Python.
+- Protected: Attributes and methods prefixed with a single underscore ```_``` are conventionally considered protected. They should be treated as non-public parts of the API, but this is just a convention, and they can still be accessed from outside the class.
+- Private: Attributes and methods prefixed with a double underscore ```__``` **(but not ending with double underscores)** are considered private. 
+
+**Python employs name mangling, which slightly changes the name to prevent accidental access, but it's still technically possible to access them.**
